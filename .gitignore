@@ -1,2 +1,8 @@
 /data
 **/.ipynb_checkpoints/
+
+/ienv
+/venv
+
+/.DS_Store
+/.virtual_documents
