@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div4U5ZBX7JGJLDE8O"></div>
+        <div class="lime top_div" id="top_divTVQOGYTY3RHKOAY"></div>
         
         <script>
-        var top_div = d3.select('#top_div4U5ZBX7JGJLDE8O').classed('lime top_div', true);
+        var top_div = d3.select('#top_divTVQOGYTY3RHKOAY').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["Class 0", "Class 1"], [0.8524637946348399, 0.1475362053651601]);
+            var pp = new lime.PredictProba(pp_svg, ["Class 0", "Class 1"], [0.9999322295188904, 6.776377995265648e-05]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["Class 0", "Class 1"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["apache_2_diagnosis_123.0 <= 0.00", 0.22408465826169222], ["apache_2_diagnosis_208.0 <= 0.00", -0.22157909468405412], ["gcs_unable_apache <= 0.00", -0.2180867264880408], ["icu_admit_source_Other ICU <= 0.00", -0.20814671967037712], ["apache_2_diagnosis_217.0 <= 0.00", -0.20571354195763453], ["aids <= 0.00", -0.18741148556711912], ["age <= -0.58", -0.17069955012960533], ["apache_2_diagnosis_114.0 <= 0.00", -0.1608011551872643], ["hospital_admit_source_Observation <= 0.00", -0.14815182069733335], ["hospital_admit_source_Other <= 0.00", -0.041824824622895246]], 1, exp_div);
+                exp.show([["apache_2_diagnosis_215.0 <= 0.00", 0.2897201665394741], ["apache_2_diagnosis_103.0 <= 0.00", 0.27995035901998966], ["apache_2_diagnosis_109.0 <= 0.00", 0.26915438749016574], ["apache_2_diagnosis_123.0 <= 0.00", 0.2594757217630367], ["apache_2_diagnosis_305.0 <= 0.00", 0.24876998834992248], ["apache_2_diagnosis_216.0 <= 0.00", 0.2298084372561898], ["apache_2_diagnosis_102.0 <= 0.00", 0.21744300276261472], ["apache_2_diagnosis_104.0 <= 0.00", 0.21419232151198786], ["hospital_admit_source_Observation <= 0.00", -0.2076388152426275], ["apache_2_diagnosis_212.0 <= 0.00", 0.18108047554369103]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["apache_2_diagnosis_123.0", "0.00", 0.22408465826169222], ["apache_2_diagnosis_208.0", "0.00", -0.22157909468405412], ["gcs_unable_apache", "0.00", -0.2180867264880408], ["icu_admit_source_Other ICU", "0.00", -0.20814671967037712], ["apache_2_diagnosis_217.0", "0.00", -0.20571354195763453], ["aids", "0.00", -0.18741148556711912], ["age", "-1.49", -0.17069955012960533], ["apache_2_diagnosis_114.0", "0.00", -0.1608011551872643], ["hospital_admit_source_Observation", "0.00", -0.14815182069733335], ["hospital_admit_source_Other", "0.00", -0.041824824622895246]], 1, raw_div);
+            exp.show_raw_tabular([["apache_2_diagnosis_215.0", "0.00", 0.2897201665394741], ["apache_2_diagnosis_103.0", "0.00", 0.27995035901998966], ["apache_2_diagnosis_109.0", "0.00", 0.26915438749016574], ["apache_2_diagnosis_123.0", "0.00", 0.2594757217630367], ["apache_2_diagnosis_305.0", "0.00", 0.24876998834992248], ["apache_2_diagnosis_216.0", "0.00", 0.2298084372561898], ["apache_2_diagnosis_102.0", "0.00", 0.21744300276261472], ["apache_2_diagnosis_104.0", "0.00", 0.21419232151198786], ["hospital_admit_source_Observation", "0.00", -0.2076388152426275], ["apache_2_diagnosis_212.0", "0.00", 0.18108047554369103]], 1, raw_div);
         
         </script>
         </body></html>
