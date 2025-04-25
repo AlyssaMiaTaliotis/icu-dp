@@ -5,3 +5,7 @@ scikit-learn
 scipy
 seaborn
 jupyterlab
+xgboost
+tensorflow
+shap
+lime
